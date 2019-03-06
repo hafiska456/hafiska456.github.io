@@ -108,7 +108,7 @@ ref.on('value', function(snapshot) {
 			  if(i==1)
 			  {
 				  firstDescrption1.innerText=childData;
-				  firstDescrption11.innerText=childData;
+				 // firstDescrption11.innerText=childData;
 				  sessionStorage.setItem("description1",childData);
 			  }
 			 
@@ -131,7 +131,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  secondDescrption1.innerText=childData;
-				  secondDescrption11.innerText=childData;
+				  //secondDescrption11.innerText=childData;
 				  sessionStorage.setItem("description2",childData);
 			    }
 				
@@ -153,7 +153,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  thirdDescrption1.innerText=childData;
-				  thirdDescrption11.innerText=childData;
+				  //thirdDescrption11.innerText=childData;
 				  sessionStorage.setItem("description3",childData);
 			    }				
 		   }
@@ -177,7 +177,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  fourthDescrption1.innerText=childData;
-				  fourthDescrption11.innerText=childData;
+				  //fourthDescrption11.innerText=childData;
 				  sessionStorage.setItem("description4",childData);
 			    }
 				
@@ -201,7 +201,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  fifthDescrption1.innerText=childData;
-				  fifthDescrption11.innerText=childData;
+				 // fifthDescrption11.innerText=childData;
 				  sessionStorage.setItem("description5",childData);
 			    }
 		   }
@@ -224,7 +224,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  sixthDescrption1.innerText=childData;
-				  sixthDescrption11.innerText=childData;
+				 // sixthDescrption11.innerText=childData;
 				  sessionStorage.setItem("description6",childData);
 			    }
 		   }
@@ -246,7 +246,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  seventhDescrption1.innerText=childData;
-				  seventhDescrption11.innerText=childData;
+				  //seventhDescrption11.innerText=childData;
 				  sessionStorage.setItem("description7",childData);
 			    }
 		   }
@@ -269,7 +269,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  eighthDescrption1.innerText=childData;
-				  eighthDescrption11.innerText=childData;
+				  //eighthDescrption11.innerText=childData;
 				  sessionStorage.setItem("description8",childData);
 			    }
 		   }
@@ -292,7 +292,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  ninethDescrption1.innerText=childData;
-				  ninethDescrption11.innerText=childData;
+				  //ninethDescrption11.innerText=childData;
 				  sessionStorage.setItem("description9",childData);
 			    }
 		   }
@@ -315,7 +315,7 @@ ref.on('value', function(snapshot) {
 		    	if(i==1)
 			    {
 				  tenthDescrption1.innerText=childData;
-				  tenthDescrption11.innerText=childData;
+				 // tenthDescrption11.innerText=childData;
 				  sessionStorage.setItem("description10",childData);
 			    }
 				
@@ -475,6 +475,5 @@ $("button").click(function() {
         scrollTop: $(".second").offset().top},
         'slow');
 });
-
 
 
